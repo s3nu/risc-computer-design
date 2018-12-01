@@ -1,0 +1,6 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/mips_fpga.xdc rfile:../../../../../project_final.srcs/constrs_1/new/mips_fpga.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/Soc_Fpga.xdc rfile:../../../../../project_final.srcs/constrs_1/new/Soc_Fpga.xdc id:2} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clk]
+set_property src_info {type:XDC file:2 line:3 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clk]

@@ -1,0 +1,1113 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Dec 05 14:50:27 2017
+# Process ID: 32288
+# Current directory: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.runs/synth_1
+# Command line: vivado.exe -log Soc_Fpga.vds -mode batch -messageDb vivado.pb -notrace -source Soc_Fpga.tcl
+# Log file: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.runs/synth_1/Soc_Fpga.vds
+# Journal file: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Soc_Fpga.tcl -notrace
+Command: synth_design -top Soc_Fpga -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30460 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 273.504 ; gain = 66.816
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Soc_Fpga' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Soc_Fpga.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_gen' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_gen' (1#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:23]
+INFO: [Synth 8-638] synthesizing module 'bdebouncer' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:120]
+	Parameter depth bound to: 16 - type: integer 
+	Parameter history_max bound to: 65535 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bdebouncer' (2#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:120]
+INFO: [Synth 8-638] synthesizing module 'soc_system' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/soc_system.v:23]
+INFO: [Synth 8-638] synthesizing module 'mips' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mips.v:22]
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/datapath.v:23]
+INFO: [Synth 8-638] synthesizing module 'idReg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:162]
+INFO: [Synth 8-256] done synthesizing module 'idReg' (3#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:162]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:55]
+INFO: [Synth 8-256] done synthesizing module 'adder' (4#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:55]
+INFO: [Synth 8-638] synthesizing module 'pcReg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:152]
+INFO: [Synth 8-256] done synthesizing module 'pcReg' (5#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:152]
+INFO: [Synth 8-638] synthesizing module 'mux2' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:23]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2' (6#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:23]
+INFO: [Synth 8-638] synthesizing module 'regfile' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:120]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (7#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:120]
+INFO: [Synth 8-638] synthesizing module 'signext' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:60]
+INFO: [Synth 8-256] done synthesizing module 'signext' (8#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:60]
+INFO: [Synth 8-638] synthesizing module 'ifComparator' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:174]
+INFO: [Synth 8-256] done synthesizing module 'ifComparator' (9#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:174]
+INFO: [Synth 8-638] synthesizing module 'ifReg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized0' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized0' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized1' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized1' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized2' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized2' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized3' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized3' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized4' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized4' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized5' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized5' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized6' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized6' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized7' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized7' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized8' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized8' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized9' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized9' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized10' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized10' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized11' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized11' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'ifReg__parameterized12' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ifReg__parameterized12' (10#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:182]
+INFO: [Synth 8-638] synthesizing module 'mux4' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+	Parameter wide bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux4' (11#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+INFO: [Synth 8-638] synthesizing module 'mux4__parameterized0' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux4__parameterized0' (11#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+INFO: [Synth 8-638] synthesizing module 'mux4__parameterized1' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux4__parameterized1' (11#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+INFO: [Synth 8-638] synthesizing module 'iMReg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized0' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized0' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized1' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized1' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized2' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized2' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized3' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized3' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized4' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized4' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized5' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized5' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized6' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized6' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized7' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized7' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized8' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized8' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized9' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized9' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized10' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized10' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized11' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized11' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized12' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized12' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized13' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized13' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized14' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized14' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized15' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized15' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized16' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized16' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized17' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized17' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized18' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized18' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized19' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized19' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'iMReg__parameterized20' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'iMReg__parameterized20' (12#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:194]
+INFO: [Synth 8-638] synthesizing module 'alu' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:65]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:70]
+INFO: [Synth 8-256] done synthesizing module 'alu' (13#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:65]
+INFO: [Synth 8-638] synthesizing module 'mul' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:81]
+WARNING: [Synth 8-567] referenced signal 'out' should be on the sensitivity list [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:84]
+INFO: [Synth 8-256] done synthesizing module 'mul' (14#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:81]
+INFO: [Synth 8-638] synthesizing module 'en_dreg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:109]
+WARNING: [Synth 8-567] referenced signal 'q' should be on the sensitivity list [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:111]
+INFO: [Synth 8-256] done synthesizing module 'en_dreg' (15#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:109]
+INFO: [Synth 8-638] synthesizing module 'mux4__parameterized2' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux4__parameterized2' (15#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+INFO: [Synth 8-638] synthesizing module 'mux4__parameterized3' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux4__parameterized3' (15#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:28]
+INFO: [Synth 8-638] synthesizing module 'sl4' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:136]
+INFO: [Synth 8-256] done synthesizing module 'sl4' (16#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:136]
+INFO: [Synth 8-638] synthesizing module 'sr1' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:144]
+INFO: [Synth 8-256] done synthesizing module 'sr1' (17#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:144]
+INFO: [Synth 8-638] synthesizing module 'HazardUnit' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:75]
+INFO: [Synth 8-638] synthesizing module 'HarzardControlFAE' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:21]
+INFO: [Synth 8-256] done synthesizing module 'HarzardControlFAE' (18#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:21]
+INFO: [Synth 8-638] synthesizing module 'HarzardControlFBE' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:32]
+INFO: [Synth 8-256] done synthesizing module 'HarzardControlFBE' (19#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:32]
+INFO: [Synth 8-638] synthesizing module 'HarzardStall' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:43]
+INFO: [Synth 8-256] done synthesizing module 'HarzardStall' (20#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:43]
+INFO: [Synth 8-638] synthesizing module 'HarzardControlAD' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:50]
+INFO: [Synth 8-256] done synthesizing module 'HarzardControlAD' (21#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:50]
+INFO: [Synth 8-638] synthesizing module 'HarzardControlBD' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:57]
+INFO: [Synth 8-256] done synthesizing module 'HarzardControlBD' (22#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:57]
+INFO: [Synth 8-638] synthesizing module 'HarzardStallBranch' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:64]
+INFO: [Synth 8-256] done synthesizing module 'HarzardStallBranch' (23#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:64]
+INFO: [Synth 8-256] done synthesizing module 'HazardUnit' (24#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/HazardUnit.v:75]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (25#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/datapath.v:23]
+INFO: [Synth 8-638] synthesizing module 'controlunit' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/controlunit.v:22]
+INFO: [Synth 8-638] synthesizing module 'maindec' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/cu_parts.v:2]
+INFO: [Synth 8-256] done synthesizing module 'maindec' (26#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/cu_parts.v:2]
+INFO: [Synth 8-638] synthesizing module 'auxdec' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/cu_parts.v:37]
+INFO: [Synth 8-256] done synthesizing module 'auxdec' (27#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/cu_parts.v:37]
+INFO: [Synth 8-256] done synthesizing module 'controlunit' (28#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/controlunit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'mips' (29#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mips.v:22]
+INFO: [Synth 8-638] synthesizing module 'imem' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:23]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'memfile.dat'; please make sure the file is added to project and has read permission, ignoring [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:27]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:25]
+INFO: [Synth 8-256] done synthesizing module 'imem' (30#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:23]
+INFO: [Synth 8-638] synthesizing module 'dmem' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:32]
+INFO: [Synth 8-256] done synthesizing module 'dmem' (31#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/mem_parts.v:32]
+INFO: [Synth 8-638] synthesizing module 'Soc_mux' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Soc_mux.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Soc_mux' (32#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Soc_mux.v:23]
+INFO: [Synth 8-638] synthesizing module 'topDecoder' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/topDecoder.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/topDecoder.v:29]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/topDecoder.v:37]
+INFO: [Synth 8-256] done synthesizing module 'topDecoder' (33#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/topDecoder.v:23]
+INFO: [Synth 8-638] synthesizing module 'top_Factorial_Accelerator' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/top_Factorial_Accelerator.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_ad' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_ad.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_ad.v:26]
+INFO: [Synth 8-256] done synthesizing module 'fact_ad' (34#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_ad.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_dff4' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_dff4.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fact_dff4' (35#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_dff4.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_dff' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_dff.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fact_dff' (36#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_dff.v:23]
+INFO: [Synth 8-638] synthesizing module 'Factorial_Accelerator' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Factorial_Accelerator.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_cu' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_cu.v:23]
+	Parameter IDLE bound to: 6'b000000 
+	Parameter S1 bound to: 6'b101010 
+	Parameter S2 bound to: 6'b000100 
+	Parameter S3 bound to: 6'b000101 
+	Parameter S4 bound to: 6'b001110 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_cu.v:77]
+INFO: [Synth 8-256] done synthesizing module 'fact_cu' (37#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_cu.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_dp' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_dp.v:23]
+INFO: [Synth 8-638] synthesizing module 'acc_mux' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/acc_mux.v:23]
+INFO: [Synth 8-256] done synthesizing module 'acc_mux' (38#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/acc_mux.v:23]
+INFO: [Synth 8-638] synthesizing module 'Ud_Cnt_4' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Ud_Cnt4.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Ud_Cnt_4' (39#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Ud_Cnt4.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_comparator' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_comparator.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fact_comparator' (40#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_comparator.v:23]
+INFO: [Synth 8-638] synthesizing module 'acc_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/acc_reg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'acc_reg' (41#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/acc_reg.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_alu' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_alu.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fact_alu' (42#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_alu.v:23]
+INFO: [Synth 8-638] synthesizing module 'acc_mux2' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/acc_mux2.v:23]
+INFO: [Synth 8-256] done synthesizing module 'acc_mux2' (43#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/acc_mux2.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fact_dp' (44#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_dp.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Factorial_Accelerator' (45#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Factorial_Accelerator.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_error_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_error_reg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fact_error_reg' (46#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_error_reg.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_result_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_result_reg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fact_result_reg' (47#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_result_reg.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_reg.v:23]
+	Parameter w bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fact_reg' (48#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_reg.v:23]
+INFO: [Synth 8-638] synthesizing module 'fact_mux' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_mux.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_mux.v:26]
+INFO: [Synth 8-256] done synthesizing module 'fact_mux' (49#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_mux.v:23]
+INFO: [Synth 8-256] done synthesizing module 'top_Factorial_Accelerator' (50#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/top_Factorial_Accelerator.v:23]
+INFO: [Synth 8-638] synthesizing module 'top_GPIO' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/top_GPIO.v:23]
+INFO: [Synth 8-638] synthesizing module 'gpio_Ad' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/gpio_Ad.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/gpio_Ad.v:28]
+INFO: [Synth 8-256] done synthesizing module 'gpio_Ad' (51#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/gpio_Ad.v:23]
+INFO: [Synth 8-638] synthesizing module 'gpio_dff' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/gpio_dff.v:23]
+INFO: [Synth 8-256] done synthesizing module 'gpio_dff' (52#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/gpio_dff.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux32' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:42]
+	Parameter wide bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux32' (53#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:42]
+INFO: [Synth 8-256] done synthesizing module 'top_GPIO' (54#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/top_GPIO.v:23]
+INFO: [Synth 8-256] done synthesizing module 'soc_system' (55#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/soc_system.v:23]
+INFO: [Synth 8-638] synthesizing module 'bcd_to_7seg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:69]
+INFO: [Synth 8-226] default block is never used [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:73]
+INFO: [Synth 8-256] done synthesizing module 'bcd_to_7seg' (56#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:69]
+INFO: [Synth 8-638] synthesizing module 'led_mux' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:95]
+INFO: [Synth 8-226] default block is never used [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:106]
+INFO: [Synth 8-256] done synthesizing module 'led_mux' (57#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/utility.v:95]
+INFO: [Synth 8-256] done synthesizing module 'Soc_Fpga' (58#1) [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Soc_Fpga.v:23]
+WARNING: [Synth 8-3331] design controlunit has unconnected port clk
+WARNING: [Synth 8-3331] design controlunit has unconnected port rst
+WARNING: [Synth 8-3331] design HarzardStallBranch has unconnected port MemtoRegM[1]
+WARNING: [Synth 8-3331] design HarzardStall has unconnected port MemtoRegE[1]
+WARNING: [Synth 8-3331] design sr1 has unconnected port a[0]
+WARNING: [Synth 8-3331] design sl4 has unconnected port a[31]
+WARNING: [Synth 8-3331] design sl4 has unconnected port a[30]
+WARNING: [Synth 8-3331] design sl4 has unconnected port a[29]
+WARNING: [Synth 8-3331] design sl4 has unconnected port a[28]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 310.824 ; gain = 104.137
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 310.824 ; gain = 104.137
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/mips_fpga.xdc]
+Finished Parsing XDC File [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/mips_fpga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/mips_fpga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Soc_Fpga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Soc_Fpga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/Soc_Fpga.xdc]
+Finished Parsing XDC File [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/Soc_Fpga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/constrs_1/new/Soc_Fpga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Soc_Fpga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Soc_Fpga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 620.609 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:47 . Memory (MB): peak = 620.609 ; gain = 413.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:47 . Memory (MB): peak = 620.609 ; gain = 413.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:47 . Memory (MB): peak = 620.609 ; gain = 413.922
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_sec" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_5KHz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "debounced_button0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:70]
+INFO: [Synth 8-5546] ROM "Jreturn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'cs_reg' in module 'fact_cu'
+INFO: [Synth 8-5544] ROM "Done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ns" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/Ud_Cnt4.v:34]
+INFO: [Synth 8-5545] ROM "aluout" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:71]
+WARNING: [Synth 8-327] inferring latch for variable 'q_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/dp_parts.v:113]
+WARNING: [Synth 8-327] inferring latch for variable 'ctrl_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/topDecoder.v:25]
+WARNING: [Synth 8-327] inferring latch for variable 'Done_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_cu.v:40]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                             0000
+                 iSTATE0 |                              001 |                             0001
+                 iSTATE1 |                              010 |                             0010
+                 iSTATE3 |                              011 |                             0100
+                 iSTATE2 |                              100 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cs_reg' using encoding 'sequential' in module 'fact_cu'
+WARNING: [Synth 8-327] inferring latch for variable 'Err_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_cu.v:41]
+WARNING: [Synth 8-327] inferring latch for variable 'ctrl_reg' [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.srcs/sources_1/new/fact_cu.v:78]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:51 . Memory (MB): peak = 620.609 ; gain = 413.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 28    
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 16    
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   4 Input     32 Bit        Muxes := 7     
+	   7 Input     32 Bit        Muxes := 1     
+	   8 Input     14 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   7 Input     11 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 8     
+	   5 Input      6 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	  14 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   7 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module bdebouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module idReg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module pcReg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module ifReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module ifReg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ifReg__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module ifReg__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ifReg__parameterized3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ifReg__parameterized4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ifReg__parameterized5 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ifReg__parameterized6 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ifReg__parameterized7 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module ifReg__parameterized8 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module ifReg__parameterized9 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module ifReg__parameterized10 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ifReg__parameterized11 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ifReg__parameterized12 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+Module mux4__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module mux4__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module iMReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module iMReg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module iMReg__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module iMReg__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module iMReg__parameterized3 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized4 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized5 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized6 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized7 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized8 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module iMReg__parameterized9 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized10 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module iMReg__parameterized12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module iMReg__parameterized13 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized14 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized15 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized16 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized17 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized18 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module iMReg__parameterized19 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module iMReg__parameterized20 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   7 Input     32 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module mul 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+Module mux4__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module mux4__parameterized3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module HarzardControlFAE 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module HarzardControlFBE 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module maindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input     14 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   7 Input     11 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module auxdec 
+Detailed RTL Component Info : 
++---Muxes : 
+	  14 Input      3 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+Module Soc_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module topDecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module fact_ad 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module fact_dff4 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module fact_dff 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fact_cu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      6 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 3     
+Module acc_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Ud_Cnt_4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module acc_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module fact_alu 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module acc_mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module fact_error_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fact_result_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fact_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module fact_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module gpio_Ad 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 2     
+Module gpio_dff 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module bcd_to_7seg 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+Module led_mux 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:51 . Memory (MB): peak = 620.609 ; gain = 413.922
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "cu/md/" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP dp/mulOp/outHi0, operation Mode is: A*B.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+DSP Report: Generating DSP dp/mulOp/outHi0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+DSP Report: Generating DSP dp/mulOp/outHi0, operation Mode is: A*B.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+DSP Report: Generating DSP dp/mulOp/outHi0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+DSP Report: operator dp/mulOp/outHi0 is absorbed into DSP dp/mulOp/outHi0.
+INFO: [Synth 8-5545] ROM "u4/u2/u5/aluout" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP u4/u2/u5/aluout0, operation Mode is: A*B.
+DSP Report: operator u4/u2/u5/aluout0 is absorbed into DSP u4/u2/u5/aluout0.
+DSP Report: operator u4/u2/u5/aluout0 is absorbed into DSP u4/u2/u5/aluout0.
+DSP Report: Generating DSP u4/u2/u5/aluout0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u4/u2/u5/aluout0 is absorbed into DSP u4/u2/u5/aluout0.
+DSP Report: operator u4/u2/u5/aluout0 is absorbed into DSP u4/u2/u5/aluout0.
+INFO: [Synth 8-5545] ROM "clk_gen/count2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_gen/clk_5KHz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "bd/debounced_button0" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:56 . Memory (MB): peak = 620.609 ; gain = 413.922
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:56 . Memory (MB): peak = 620.609 ; gain = 413.922
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives      | 
++------------+-------------------+-----------+----------------------+-----------------+
+|soc_system  | mips/dp/rf/rf_reg | Implied   | 32 x 32              | RAM32M x 18     | 
+|soc_system  | dmem/ram_reg      | Implied   | 64 x 32              | RAM64X1S x 32   | 
++------------+-------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++--------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name               | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mul                       | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul                       | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul                       | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul                       | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_Factorial_Accelerator | A*B            | 18     | 5      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_Factorial_Accelerator | (PCIN>>17)+A*B | 16     | 5      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'soc_system/u0/u4/u1/ctrl_reg[1]' (LD) to 'soc_system/u0/u4/u1/ctrl_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (soc_system/\u0/u4/u1/ctrl_reg[4] )
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[10]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[9]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[6]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[7]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[8]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[14]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[15]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[11]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[12]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[13]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[30]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[31]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[29]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[28]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[27]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[26]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[25]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[24]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[23]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[22]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[21]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[20]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[19]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[18]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[17]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[16]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[15]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[14]' (FDC) to 'soc_system/mips/dp/if_reg_sextE/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[13]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[11]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[12]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[10]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[9]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[6]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[7]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_reg_sextE/q_reg[8]' (FDC) to 'soc_system/mips/dp/if_reg_RdE/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/id_reg/q_reg[31]' (FDCE) to 'soc_system/mips/dp/id_reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[3]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[3]' (FDC) to 'soc_system/mips/dp/if_rf_srl_M/q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[2]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[2]' (FDC) to 'soc_system/mips/dp/if_rf_srl_M/q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[1]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[1]' (FDC) to 'soc_system/mips/dp/if_rf_srl_M/q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[0]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[0]' (FDC) to 'soc_system/mips/dp/if_rf_srl_M/q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[7]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[7]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[6]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[6]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[5]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[5]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[4]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[4]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[11]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[11]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[10]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[10]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[9]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[9]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[8]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[8]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[15]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[16]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[15]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[14]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[14]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[13]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[13]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[12]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[12]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[19]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[20]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[19]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[18]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[19]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[18]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[17]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[18]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[17]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[16]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[17]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[16]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[23]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[23]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[19]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[22]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[23]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[22]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[18]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[21]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[21]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[17]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[20]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[21]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[20]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[16]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[27]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[28]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[27]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[23]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[26]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[27]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[26]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[25]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[26]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[25]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[21]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[24]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[25]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[24]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[20]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (soc_system/\mips/dp/if_rf_srl_M/q_reg[31] )
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[31]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[27]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[30]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[30]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[26]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[29]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[30]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_sll_M/q_reg[29]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[25]'
+INFO: [Synth 8-3886] merging instance 'soc_system/mips/dp/if_rf_srl_M/q_reg[28]' (FDC) to 'soc_system/mips/dp/wd_dm_reg_m/q_reg[29]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (soc_system/\mips/dp/id_reg/q_reg[29] )
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[31]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[30]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[29]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[28]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[27]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[26]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[25]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[24]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[23]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[22]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[21]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[20]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[19]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[18]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[17]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[16]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[15]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[14]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[13]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[12]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[11]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[10]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[9]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[8]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[7]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[6]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[5]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[4]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[3]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[2]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[1]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_hi_reg/q_reg[0]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[31]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[30]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[29]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[28]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[27]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[26]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[25]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[24]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[23]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[22]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[21]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[20]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[19]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[18]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[17]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[16]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[15]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[14]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[13]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[12]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[11]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[10]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[9]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[8]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[7]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[6]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[5]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[4]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[3]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[2]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[1]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/mul_lo_reg/q_reg[0]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[31]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[30]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[29]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[28]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[27]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[26]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[25]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[24]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[23]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[22]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[21]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[20]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[19]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[18]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[17]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[16]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[15]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[14]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[13]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[12]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[11]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[10]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[9]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[8]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[7]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[6]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[5]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[4]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[3]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[2]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[1]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/id_reg/q_reg[0]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/if_reg_dm2regE/q_reg[1]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/if_reg_dm2regE/q_reg[0]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/dm2reg_m/q_reg[1]) is unused and will be removed from module soc_system.
+WARNING: [Synth 8-3332] Sequential element (mips/dp/dm2reg_m/q_reg[0]) is unused and will be removed from module soc_system.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:59 . Memory (MB): peak = 620.609 ; gain = 413.922
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:38 ; elapsed = 00:00:59 . Memory (MB): peak = 620.609 ; gain = 413.922
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------

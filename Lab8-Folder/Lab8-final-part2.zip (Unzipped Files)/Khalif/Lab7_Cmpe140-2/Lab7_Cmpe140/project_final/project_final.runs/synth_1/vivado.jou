@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Dec 05 14:50:27 2017
+# Process ID: 32288
+# Current directory: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.runs/synth_1
+# Command line: vivado.exe -log Soc_Fpga.vds -mode batch -messageDb vivado.pb -notrace -source Soc_Fpga.tcl
+# Log file: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.runs/synth_1/Soc_Fpga.vds
+# Journal file: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Soc_Fpga.tcl -notrace

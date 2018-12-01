@@ -1,0 +1,86 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 7504
+
+Current time: 	12/4/17 11:25:13 PM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Josie
+User home directory: C:/Users/Josie
+User working directory: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/Lab5_cmpe140
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Josie/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Josie/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	205 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 364 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 37 MB (+36597kb) [00:00:28]
+// [Engine Memory]: 338 MB (+202742kb) [00:00:29]
+// Tcl Message: ERROR: [Common 17-354] Could not open 'C' for writing. ERROR: [Common 17-356] Failed to install all user apps. 
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only<br>mode for the protection of unrecognized data.<br>Please use 'File | Save Project As...' if you need to alter a copy of this project.<br>The project may or may not open reliably with this version of Vivado.<br>OK to proceed and open the project? (Future Project Version)'
+// dD:a (cv:JFrame): Error Messages: addNotify
+// [Engine Memory]: 368 MB (+13847kb) [00:00:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 369 MB. GUI used memory: 28 MB. Current time: 12/4/17 11:25:15 PM PST
+// [GUI Memory]: 39 MB (+313kb) [00:01:00]
+selectButton(PAResourceOtoP.PlanAhead_CONTINUE, "Continue"); // i:a (JPanel:JComponent, dD:a)
+dismissDialog("Error Messages"); // dD:a (cv:JFrame)
+// Opening Vivado Project: C:\Users\Josie\Desktop\Khalif\Lab7_Cmpe140-2\Lab7_Cmpe140\Lab5_cmpe140\Lab5_cmpe140.xpr. Version: Vivado v2016.3 
+// bL:g (cv:JFrame):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_THIS_PROJECT_WILL_BE_OPENED_IN_READ_ONLY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/Lab5_cmpe140/Lab5_cmpe140.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 45 MB (+3475kb) [00:01:20]
+// [Engine Memory]: 396 MB (+9658kb) [00:01:20]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+1550kb) [00:01:28]
+// [Engine Memory]: 434 MB (+19203kb) [00:01:28]
+// [GUI Memory]: 54 MB (+2894kb) [00:01:38]
+// Tcl Message: open_project C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/Lab5_cmpe140/Lab5_cmpe140.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/SharedFolder/Fall2017/CMPE140/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/Lab5_cmpe140' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 459 MB. GUI used memory: 37 MB. Current time: 12/4/17 11:26:23 PM PST
+// [Engine Memory]: 459 MB (+3319kb) [00:01:44]
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 704.629 ; gain = 53.426 
+// Project name: Lab5_cmpe140; location: C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/Lab5_cmpe140; part: xc7a100tcsg324-1
+// TclEventType: DG_UPDATE_GRAPH
+closeMainWindow("Lab5_cmpe140 (Read-only) - [C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/Lab5_cmpe140/Lab5_cmpe140.xpr] - Vivado 2016.2"); // cv:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'
+// Elapsed time: 36 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET

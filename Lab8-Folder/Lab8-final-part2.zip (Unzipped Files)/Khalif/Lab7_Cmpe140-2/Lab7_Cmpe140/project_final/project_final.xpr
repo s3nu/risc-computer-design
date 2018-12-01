@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2016.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="14" Path="C:/Users/Josie/Desktop/Khalif/Lab7_Cmpe140-2/Lab7_Cmpe140/project_final/project_final.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="556e877d52ff4e37980b3b37986eb7ad"/>
+    <Option Name="Part" Val="xc7a100tcsg324-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PPRDIR/project_final.ip_user_files"/>
+    <Option Name="IPStaticSourceDir" Val="$PPRDIR/project_final.ip_user_files/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="WTXSimLaunchSim" Val="559"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/Ud_Cnt4.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/Ud_Cnt4.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_comparator.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_comparator.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_alu.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_alu.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/acc_reg.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/acc_reg.v"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/acc_mux2.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/acc_mux2.v"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/acc_mux.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/acc_mux.v"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/HazardUnit.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/HazardUnit.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/dp_parts.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/dp_parts.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_dp.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_dp.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_cu.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_cu.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/cu_parts.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/cu_parts.v"/>
+          <Attr Name="ImportTime" Val="1512456224"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/controlunit.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/controlunit.v"/>
+          <Attr Name="ImportTime" Val="1512456222"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/datapath.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/datapath.v"/>
+          <Attr Name="ImportTime" Val="1512448990"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/gpio_dff.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/gpio_dff.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/gpio_Ad.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/gpio_Ad.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_result_reg.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_result_reg.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_reg.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_reg.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_mux.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_mux.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_error_reg.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_error_reg.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_dff4.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_dff4.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_dff.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_dff.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_ad.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_ad.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Factorial_Accelerator.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/Factorial_Accelerator.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mips.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/mips.v"/>
+          <Attr Name="ImportTime" Val="1512456218"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mem_parts.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/mem_parts.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/top_GPIO.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/top_GPIO.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/top_Factorial_Accelerator.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/top_Factorial_Accelerator.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/topDecoder.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/topDecoder.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Soc_mux.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/Soc_mux.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/utility.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/utility.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/soc_system.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/soc_system.v"/>
+          <Attr Name="ImportTime" Val="1512448988"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Soc_Fpga.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/Soc_Fpga.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mips_top.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/mips_top.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/fact_mul.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/fact_mul.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/convert_to_signed.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/convert_to_signed.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mips_fpga.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/mips_fpga.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Comparator_GT.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/Comparator_GT.v"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mips_Ad.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/mips_Ad.v"/>
+          <Attr Name="ImportTime" Val="1512446020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Soc_Fpga"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/new/mips_fpga.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/constrs_1/new/mips_fpga.xdc"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/new/Soc_Fpga.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/constrs_1/new/Soc_Fpga.xdc"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/new/soc_top_tb.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sim_1/new/soc_top_tb.v"/>
+          <Attr Name="ImportTime" Val="1512456926"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/tb_mips_top.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sim_1/new/tb_mips_top.v"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/soc_fpga_tb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sim_1/new/soc_fpga_tb.v"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/Factorial_Accerlerator_tb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sim_1/new/Factorial_Accerlerator_tb.v"/>
+          <Attr Name="ImportTime" Val="1512446018"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../Lab5_cmpe140/Lab5_cmpe140.srcs/sources_1/new/memfile.dat">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../Lab5_cmpe140/soc_top_tb_behav.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="soc_top_tb"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../Lab5_cmpe140/soc_top_tb_behav.wcfg"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+  </Runs>
+</Project>

@@ -1,0 +1,66 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Nov 30 02:03:30 2017
+| Host         : Josie-VAIO running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file Soc_Fpga_control_sets_placed.rpt
+| Design       : Soc_Fpga
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    35 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              32 |           12 |
+| No           | No                    | Yes                    |              12 |            5 |
+| No           | Yes                   | No                     |              33 |           10 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             136 |           53 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+|              Clock Signal              |              Enable Signal              | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+|  soc_system/mips/dp/pc_reg/q_reg[1]_10 |                                         |                  |                1 |              1 |
+|  clk_pb_BUFG                           | soc_system/mips/dp/pc_reg/q_reg[0]_5[0] | rst_IBUF         |                2 |              4 |
+|  soc_system/mips/dp/pc_reg/E[0]        |                                         |                  |                4 |              5 |
+|  soc_system/u0/u4/u1/_n_0              |                                         |                  |                2 |              6 |
+|  clk_pb_BUFG                           |                                         | rst_IBUF         |                5 |             12 |
+|  clk_gen/index_reg[2]                  |                                         |                  |                5 |             20 |
+|  clk_pb_BUFG                           | soc_system/mips/dp/pc_reg/q_reg[0]_8[0] | rst_IBUF         |               15 |             32 |
+|  clk_pb_BUFG                           | soc_system/mips/dp/pc_reg/q_reg[0]_9[0] | rst_IBUF         |               15 |             32 |
+|  clk_pb_BUFG                           | soc_system/decoder/Q[2]                 |                  |                8 |             32 |
+|  clk_pb_BUFG                           | soc_system/u0/u4/u1/Done                | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG                         |                                         | rst_IBUF         |               10 |             33 |
+|  clk_pb_BUFG                           | soc_system/u0/u4/u1/Q_reg[0][2]         | rst_IBUF         |               11 |             36 |
+|  clk_pb_BUFG                           | soc_system/mips/dp/pc_reg/we            |                  |               12 |             96 |
++----------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+
+
